@@ -1,26 +1,26 @@
 import { useState } from 'react'
 
 import './App.css'
-import Landing from './Layout/landing'
+import Landing from './Layout/Landing'
 import Register from './auth/Register'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import TaskLayout from './TaskUI/TaskLayout'
-import {Toaster} from 'react-hot-toast'
+import { Toaster } from 'react-hot-toast'
 import { ThemeProvider } from './context/ThemeContext'
 
 function App() {
-return (
+  return (
     <ThemeProvider>
-      <Toaster/>
-    <Router>
-      <Routes>
+      <Toaster />
+      <Router>
+        <Routes>
 
-      <Route path= "/" element = {<Landing/>}/>
-      <Route path="/signin" element={<Register/>}/>
-      <Route path ="/tasks" element={<TaskLayout/>}/>
-      
-      </Routes>
-    </Router>
+          <Route path="/" element={<Landing />} />
+          <Route path="/signin" element={<Register />} />
+          <Route path="/tasks" element={<TaskLayout />} />
+
+        </Routes>
+      </Router>
     </ThemeProvider>
   )
 }
