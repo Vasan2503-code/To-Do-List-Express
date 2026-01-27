@@ -9,7 +9,7 @@ require("dotenv").config();
 app.use(express.json());
 app.use(cors(
     {
-        origin: "http://localhost:5173",
+        origin: "https://to-do-list-express-bew9.vercel.app",
         credentials: true
     }
 ));
