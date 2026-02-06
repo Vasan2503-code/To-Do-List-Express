@@ -9,8 +9,8 @@ const Landing = () => {
 
         <div className="md:w-1/2  w-full text-pink-400 ">
           <h1 className='text-pink-50 text-3xl font-bold p-12  font'>BREAK AND PUSH <br /><span className='p-6 text-7xl text-zinc-400'>THE LIMIT⚡</span></h1><br />
-                <p className='text-2xl ml-12'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/>
-            Quo eos quam distinctio laborum accusamus ad, dolore commodi</p>
+                <p className='text-2xl ml-12'> Break your limits and push yourself to the next level  <br/>
+            Use NO LIMITS to track your tasks and achieve your goals</p>
 
           <button className='ml-12 mt-6 px-8 py-3 bg-slate-800 text-pink-400 font-bold rounded-full shadow-lg border border-slate-700 hover:bg-pink-600 hover:text-white hover:border-pink-600 hover:shadow-pink-500/30 transition-all duration-300 transform hover:-translate-y-1'>
             <Link to="/signin">Get Started</Link>

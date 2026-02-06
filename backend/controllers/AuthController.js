@@ -8,7 +8,7 @@ const JWTsecret = '1234567890--09876541()sadgf#$@#^%#()_+_!@#@2343544321kjhfygk'
 
 const register = async (req, res) => {
 
-    try {
+    try {   
         const { name, email, password } = req.body;
 
         if (!name || !email || !password) {
